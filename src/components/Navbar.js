@@ -1,6 +1,7 @@
 import '../css/main.css'
 import cross from '../images/exit.svg'
 import menu from '../images/menu.svg'
+
 export default function Navbar(){
     return(
         <div class="navbar">

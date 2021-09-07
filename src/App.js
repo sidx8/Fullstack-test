@@ -8,7 +8,7 @@ import illu4 from "./images/003-code.png";
 import Footer from "./components/Footer";
 import PricingComponent from "./components/pricing";
 import Sections from "./components/Sections";
-
+import { Link } from "react-router-dom";
 function App() {
   return (
     <body>
@@ -24,9 +24,11 @@ function App() {
               components built from scratch.
             </p>
             <div class="hero-cta">
+            <Link to="/home">
               <a href="#" class="primary-cta">
-                View all pages →
+                Test Routeing →
               </a>
+              </Link>
               <a href="#" class="bta">
                 Documentaion
               </a>
@@ -64,7 +66,7 @@ function App() {
         </div>
       </section>
       <Sections />
-      <PricingComponent />
+      {/* <PricingComponent /> */}
       <Footer />
     </body>
   );

@@ -110,6 +110,7 @@
 }
 
 .pricing-button {
+  align-self: flex-end;
   border: 1px solid #9dd1ff;
   border-radius: 10px;
   color: #348EFE;
